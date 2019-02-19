@@ -1,8 +1,17 @@
 # twitter_unfollower_script
 
-## Purpose of this code
+## Purpose of this program
 
 Finding the fools and traitors who 'unfollowed' me. Why did they leave? Am I worth less now than when they joined me? Probably not, but this program will cause me to lose sleep and fulfill my masochistic tendencies nonetheless.
+
+## How to use
+
+1. npm install
+2. (steps in before running)
+3. get the JSON viewer extension if you have not already
+4. npm start
+5. navigate to http://localhost:3000
+6. cast scorn and fury upon your traitors. oh how we despise them
 
 ## Before running:
 

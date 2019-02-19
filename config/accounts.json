@@ -1,0 +1,6 @@
+{
+    "accounts": [
+        [ "however you want to call an account", "account ID" ],
+        [ "stringify all twitter IDs like so :", "1234567890"]
+    ]
+}

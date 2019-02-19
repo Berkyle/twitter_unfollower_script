@@ -1,0 +1,15 @@
+{
+  "name": "twitter_unfollower_script",
+  "version": "1.0.0",
+  "description": "This is just me being petty on the World Wide Web",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "twitter": "^1.7.1"
+  }
+}
