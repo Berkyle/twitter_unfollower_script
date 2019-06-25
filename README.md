@@ -1,21 +1,24 @@
 # twitter_unfollower_script
 
-## Purpose of this program
+## Purpose
 
-Finding the fools and traitors who 'unfollowed' me. Why did they leave? Am I worth less now than when they joined me? Probably not, but this program will cause me to lose sleep and fulfill my masochistic tendencies nonetheless.
+Finding the fools and traitors who 'unfollowed' me. Why did they leave? Am I worth less now than when they joined me? Probably not, but I will lose sleep over it nonetheless.
+
+NEW! That's right! I remembered I made this! There's a new feature! You can now sort a user's followers by their worth (follower count).
 
 ## How to use
 
 1. npm install
 2. (steps in before running)
 3. get the JSON viewer extension if you have not already
-4. npm start
-5. navigate to http://localhost:3000
-6. cast scorn and fury upon your traitors. oh how we despise them
+4. npm start (starts server and opens a browser to localhost)
+5. navigate to traitors or business. traitors finds unfollowers, business orders followers by their follower count.
 
 ## Before running:
 
-* You will need to make sure you have filled out the configuration file in config/config.js. Fill out the each empty string value below
+* You need to make sure you have filled out the configuration file in /config/config.js. This contains the dev keys that will be sent with your requests. The developer keys can take a bit to be sent to you but that's just because twitter is awful. 
+
+* Once you have the dev keys, fill out each empty string value below
 ```javascript
 module.exports = {
     consumer_key: '',
@@ -25,7 +28,7 @@ module.exports = {
 }
 ```
 
-*  Once you've completed the config file (the developer keys can take a bit but that's just because twitter is awful) simply add the twitter accounts you want to track in config/accounts.json and run the script every once in a while. The format looks like this:
+*  Once you've completed the config file, simply add the twitter accounts you want to track in config/accounts.json and run the script every once in a while. The format looks like this:
 ```javascript
 {
     "accounts": [
@@ -35,14 +38,11 @@ module.exports = {
 }
 ```
 
-** Note that all twitter IDs must remain strings, as many twitter IDs are greater than 2^53, which is the maximum value that JavaScript can safely represent.
+** Note that all twitter IDs must remain strings, as many twitter IDs are greater than 2^53, the maximum number value that JavaScript can represent exactly.
 
-### Thank you for checking out the only hobby code I've decided was even remotely fit for GitHub! 
-
-
-## Please hire me!
-## I'm desparate for a job and halfway decent at JavaScript!!!
-# I will continue to write terrible un-styled hobby code until I am hired! Save the internet! Give a decent JS dev a job!
-# Please!
-# PLEASE!
-# PLEASE !!!!!!
+#### Thank you for checking out the only hobby code I've decided was even remotely fit for GitHub! Please hire me!
+### I'm desparate for a job and halfway decent at JavaScript!!!
+## I will continue to write terrible un-styled hobby code until I am hired! 
+## Please!
+## PLEASE!
+## PLEASE !!!!!!
