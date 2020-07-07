@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "npm": "^6.9.0",
+    "npm": "^6.14.6",
     "twitter": "^1.7.1"
   }
 }
